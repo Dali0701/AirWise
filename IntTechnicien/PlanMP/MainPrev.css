@@ -1,0 +1,132 @@
+.div {
+    background-color: #fff;
+    display: flex;
+    padding-bottom: 80px;
+    flex-direction: column;
+  }
+  .div-2 {
+    align-items: center;
+    background-color: rgba(235, 243, 255, 0.8);
+    display: flex;
+    width: 100%;
+    font-size: 35px;
+    font-weight: 600;
+    justify-content: center;
+    padding: 10px;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .div-3 {
+    display: flex;
+    width: 100%;
+    max-width: 1161px;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 14px 0;
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  .div-4 {
+    color: #d6c2bc;
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+
+  }
+  .div-5 {
+    color: #c0cccc;
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+
+  }
+  .div-6 {
+    color: #65b2c6;
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+
+  }
+  .div-4:hover,
+  .div-5:hover,
+  .div-6:hover {
+    cursor: pointer;
+  }
+  .table-container {
+    align-self: center;
+    margin-top: 85px;
+    width: 100%;
+    max-width: 1176px;
+    padding: 0 20px;
+   
+  }
+  
+  @media (max-width: 991px) {
+    .table-container {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  
+  .table-container table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .table-container thead th {
+    height: 30%; 
+  }
+  
+  .table-container th,
+  .table-container td {
+    border: 1px ;
+    padding: 8px;
+    font-size:18px;
+    text-align: center;
+
+  }
+  
+  .table-container th:not(:last-child),
+  .table-container td:not(:last-child) {
+   border-right: 1px inset #c0cccc; 
+  }
+
+  .table-container th {
+    background-color: #F4FDFD;
+    color: #030D42;
+
+  }
+
+  .table-container th:first-child {
+    border-top-left-radius: 15px;
+   
+  }
+  .table-container th:last-child {
+    border-top-right-radius: 15px;
+   
+  } 
+   
+  .table-container tr:nth-child(even) {
+    background-color: #F4FDFD;
+    
+    
+  }
+  
+  .table-container tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+
+  }
+  
+  @media (max-width: 991px) {
+    .table-container th,
+    .table-container td {
+      padding: 6px;
+    }
+  }
+  
+  
